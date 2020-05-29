@@ -1,0 +1,24 @@
+.DS_Store*
+ehthumbs.db
+Thumbs.db
+
+*.log
+/code_coverage
+.rake_tasks
+.byebug_history
+/.bundle
+/.idea
+
+# Ignore uploaded files in development.
+/storage/*
+!/storage/.keep
+.byebug_history
+
+# Ignore master key for decrypting credentials and more.
+/config/master.key
+
+
+/.ruby-gemset
+/.env
+/.ruby-gemset
+config/database.yml
