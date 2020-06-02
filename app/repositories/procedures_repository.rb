@@ -9,7 +9,7 @@ class ProceduresRepository < ApplicationRepository
     end
 
     def sort(text)
-      @scope = @scope.sort_by { |s| s[/^"#{text}"/] }
+      @scope = @scope.sort_by { |s| s[/^"#{text}"/] } if @scope.present?
       self
     end
 
