@@ -9,7 +9,7 @@ gem 'rails', '~> 6.0.2', '>= 6.0.2.1'
 #gem 'sqlite3', '~> 1.4'
 gem 'pg', '~> 1.1' # Postgresql gem: https://bitbucket.org/ged/ruby-pg/wiki/Home
 # Use Puma as the app server
-gem 'puma', '~> 4.1'
+gem 'puma', '~> 4.3'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # gem 'jbuilder', '~> 2.7'
 gem 'fast_jsonapi'
